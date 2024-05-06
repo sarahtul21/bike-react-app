@@ -1,0 +1,21 @@
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+
+function Blog() {
+  return (
+    <div>
+      <NavBar />
+      <div className="px-6">
+        <h1 className='text-2xl font-bold'>BikeWide</h1>
+        <div className='min-h-screen bg-gray-100 p-6 rounded-lg my-6 text-gray-500 font-bold lg:text-start md:text-start text-center'>
+          <p className=''>
+          In 2014, Bike Index took over <a href='https://bikeindex.org/news' className='link text-primary'>BikeWise.org</a>. We were excited to provide a new home to the mapping project, which had previously hosted bicycle crash and dangerous biking conditions reports, in addition to theft data.
+          </p>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default Blog;
