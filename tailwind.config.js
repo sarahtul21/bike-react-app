@@ -11,9 +11,13 @@ module.exports = {
       colors: {
         
       },
+      minHeight: {
+        'n-screen': 'calc(100vh - 132px)'
+      },
       height: {
-        "d-screen": 'var(--vh100)'
-      }
+        "d-screen": 'calc(100vh - 132px)',
+      },
+      
     },
   },
   daisyui: {

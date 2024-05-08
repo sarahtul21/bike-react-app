@@ -10,6 +10,8 @@ import env from '../env';
 
 function View() {
 
+  
+
   const { data , loading, error }  = useApiHook<any>(
     `${env.API_URL}search`, 
     { timeout: 15000 } 
@@ -69,7 +71,7 @@ function View() {
       <div className='h-d-screen bg-gray-100 p-6 rounded-lg my-6 text-gray-500 font-bold text-center'>
         no bikes here
       </div> :
-      <div className=''>
+      <div className='h-fit min-h-n-screen'>
         <div className='flex flex-row justify-between flex-wrap items-center gap-6'>
           <h1 className='text-2xl font-bold'>Bikes List</h1>
           <p className='px-2 bg-primary text-primary-content font-bold rounded'>{bikes?.length}</p>
@@ -85,7 +87,7 @@ function View() {
         
         <ul className='bg-gray-100 p-6 rounded-lg my-6'>
           {filteredData?.length === 0 ? 
-          <>no result</> :
+          <div className=''>no result</div> :
           filteredData?.map((item ,idx) => {
             return (
               <li key={idx} className='flex flex-row flex-wrap justify-between items-center bg-white rounded-lg my-6 p-6'>
