@@ -1,10 +1,8 @@
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+
 
 function Blog() {
   return (
     <div>
-      <NavBar />
       <div className="px-6 h-d-screen">
         <h1 className='text-2xl font-bold'>BikeWide</h1>
         <div className=' bg-gray-100 p-6 rounded-lg my-6 text-gray-500 font-bold lg:text-start md:text-start text-center'>
@@ -13,7 +11,6 @@ function Blog() {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

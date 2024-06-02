@@ -1,10 +1,9 @@
 import colors from 'tailwindcss/colors';
-import themes from "./node_modules/daisyui/src/theming/themes";
 
-/** @type {import('tailwindcss').Config & {daisyui: import('daisyui').Config}} */
+/** @type {import('tailwindcss').Config } */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",'node_modules/flowbite-react/lib/esm/**/*.js'
   ],
   theme: {
     extend: {
@@ -15,26 +14,13 @@ module.exports = {
         'n-screen': 'calc(100vh - 132px)'
       },
       height: {
-        "d-screen": 'calc(100vh - 132px)',
+        "d-screen": 'calc(100vh - 64px)',
       },
       
     },
   },
-  daisyui: {
-    themes: [
-        {
-            light: {
-                ...themes['light'],
-                primary: colors.blue['500'],
-                "primary-content": 'white',
-                secondary: 'white',
-                "secondary-content": colors.blue['500'],
-            },
-        },
-    ],
-  },
   plugins: [
-    require('daisyui'),
+    require('flowbite/plugin')
   ],
 }
 
