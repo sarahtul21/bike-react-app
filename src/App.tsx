@@ -1,7 +1,7 @@
 
 import { createBrowserRouter , RouterProvider } from 'react-router-dom';
-import View from './pages/View';
-import Blog from './pages/Blog';
+import Sarah from './pages/Sarah';
+import Mourad from './pages/Mourad';
 
 
 let router = createBrowserRouter([
@@ -9,14 +9,14 @@ let router = createBrowserRouter([
     path: "/sarah",
     loader: () => ({ message: "Hello Data Router!" }),
     Component() {
-      return <View/>;
+      return <Sarah />;
     },
   },
   {
     path: "/mourad",
     loader: () => ({ message: "Hello Data Router!" }),
     Component() {
-      return <Blog/>;
+      return <Mourad/>;
     },
   },
 ]);

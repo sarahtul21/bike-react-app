@@ -10,7 +10,7 @@ import { useState } from "react";
 
 
 
-function View() {
+function Sarah() {
   const [openModalTryon, setOpenModalTryon] = useState(false);
   const [openModalFrames, setOpenModalFrames] = useState(false);
   const [openModalTablet, setOpenModalTablet] = useState(false);
@@ -29,7 +29,7 @@ function View() {
         <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white hover:text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path className="stroke-white"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
+                <path className="stroke-black"  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
       </div>
@@ -240,12 +240,7 @@ function View() {
               </a>
             </li>
             <li>
-                <a  target='_blank' rel="noopener"  href="https://www.facebook.com/profile.php?id=100006968445595&mibextid=ZbWKwL" className="hover:underline me-4 md:me-6">
-                  <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path fill="#039be5" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z"/><path fill="#fff" d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z"/></svg>
-                </a>
-            </li>
-            <li>
-                <a  target="_blank" rel="noopener" href='mailto:“sarahjtul@gmail.com”' className="hover:underline inline-block mt-[-13px]">
+                <a  target="_blank" rel="noopener" href='mailto:sarahjtul@gmail.com' className="hover:underline inline-block mt-[-13px]">
     
     {/* <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --> */}
     <svg height="40px" width="40px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
@@ -290,4 +285,4 @@ function View() {
   );
 }
 
-export default View;
+export default Sarah;
