@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.de911804.css",
-    "main.js": "/portfolio/static/js/main.37b869cc.js",
-    "static/js/453.f6f6aba6.chunk.js": "/portfolio/static/js/453.f6f6aba6.chunk.js",
-    "static/media/frames.png": "/portfolio/static/media/frames.fbfa2cc9b0b0d2310be9.png",
-    "static/media/headerBG.png": "/portfolio/static/media/headerBG.ebaca920be66ac70f156.png",
-    "static/media/ordit.png": "/portfolio/static/media/ordit.ade3d628cf9c9ac19c28.png",
-    "static/media/tablet.png": "/portfolio/static/media/tablet.0d4448b5aa80c7445010.png",
-    "static/media/tryon.png": "/portfolio/static/media/tryon.6375bddafb2e8c302f5e.png",
-    "static/media/assist.png": "/portfolio/static/media/assist.6484c069ec5454def8ee.png",
-    "static/media/monday.png": "/portfolio/static/media/monday.292fec19c23755051090.png",
-    "static/media/alfajr.png": "/portfolio/static/media/alfajr.59b5e245adc6b029f046.png",
-    "index.html": "/portfolio/index.html",
-    "main.de911804.css.map": "/portfolio/static/css/main.de911804.css.map",
-    "main.37b869cc.js.map": "/portfolio/static/js/main.37b869cc.js.map",
-    "453.f6f6aba6.chunk.js.map": "/portfolio/static/js/453.f6f6aba6.chunk.js.map"
+    "main.css": "/sarahPortfoilo/static/css/main.bdcc729a.css",
+    "main.js": "/sarahPortfoilo/static/js/main.79e8d4d4.js",
+    "static/js/453.f6f6aba6.chunk.js": "/sarahPortfoilo/static/js/453.f6f6aba6.chunk.js",
+    "static/media/frames.png": "/sarahPortfoilo/static/media/frames.fbfa2cc9b0b0d2310be9.png",
+    "static/media/alshamma.png": "/sarahPortfoilo/static/media/alshamma.ecfefeef56a08788aa0b.png",
+    "static/media/headerBG.png": "/sarahPortfoilo/static/media/headerBG.ebaca920be66ac70f156.png",
+    "static/media/ordit.png": "/sarahPortfoilo/static/media/ordit.ade3d628cf9c9ac19c28.png",
+    "static/media/tablet.png": "/sarahPortfoilo/static/media/tablet.0d4448b5aa80c7445010.png",
+    "static/media/tryon.png": "/sarahPortfoilo/static/media/tryon.6375bddafb2e8c302f5e.png",
+    "static/media/tadawol.png": "/sarahPortfoilo/static/media/tadawol.b6305e659799cd35ed1b.png",
+    "static/media/assist.png": "/sarahPortfoilo/static/media/assist.6484c069ec5454def8ee.png",
+    "static/media/monday.png": "/sarahPortfoilo/static/media/monday.292fec19c23755051090.png",
+    "static/media/alfajr.png": "/sarahPortfoilo/static/media/alfajr.59b5e245adc6b029f046.png",
+    "index.html": "/sarahPortfoilo/index.html",
+    "main.bdcc729a.css.map": "/sarahPortfoilo/static/css/main.bdcc729a.css.map",
+    "main.79e8d4d4.js.map": "/sarahPortfoilo/static/js/main.79e8d4d4.js.map",
+    "453.f6f6aba6.chunk.js.map": "/sarahPortfoilo/static/js/453.f6f6aba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de911804.css",
-    "static/js/main.37b869cc.js"
+    "static/css/main.bdcc729a.css",
+    "static/js/main.79e8d4d4.js"
   ]
 }
